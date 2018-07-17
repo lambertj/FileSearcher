@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSearcher.Plugin.CSharp", "FileSearcher.Plugin.CSharp\FileSearcher.Plugin.CSharp.csproj", "{05E6717B-72D2-45C0-9FEF-10433A5C7972}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSearcher.Plugin.PsExecutable", "FileSearcher.Plugin.PsExecutable\FileSearcher.Plugin.PsExecutable.csproj", "{5765C176-C175-4825-84A6-3586D2394CC3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3EA05A50-4A02-4D66-A398-8EED6D31B6F3} = {3EA05A50-4A02-4D66-A398-8EED6D31B6F3}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Externally Imported", "Externally Imported", "{BA034606-EAE3-45FB-85C7-7549ED0FC82A}"
 EndProject

@@ -14,7 +14,13 @@ The duplicate check has a nifty trick to have high performance.
 * Write custom logic to match files, in PowerShell! (Template included)
 
 **Installation**
+
 Install it via command line, simply by running it with the "/i" argument. Of course "/u" will uninstall it.
 
 ## Screenshots
 ![Screenshot](https://github.com/mathijsco/FileSearcher/releases/download/v1.0.0/screenshot.png)
+
+### In Progress / Todo List
+- [X] Migration .Net Framework 4.5.2
+- [] Implémentation du groupage de fichiers (analyse, rapport, déplacement, organisation, ...)
+- [] Migration .Net Core
